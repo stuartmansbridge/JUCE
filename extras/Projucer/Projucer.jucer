@@ -13,9 +13,9 @@
                extraFrameworks="AudioUnit; Accelerate; AVFoundation; CoreAudio; CoreAudioKit; CoreMIDI; DiscRecording; QuartzCore; AudioToolbox; OpenGL; QTKit; QuickTime">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" isDebug="1" targetName="Projucer" headerPath=""
-                       libraryPath="" cppLibType="libc++" binaryPath="../../../../Build"/>
+                       libraryPath="" cppLibType="libc++" binaryPath="../../../../bin"/>
         <CONFIGURATION name="Release" isDebug="0" targetName="Projucer" headerPath=""
-                       libraryPath="" cppLibType="libc++" binaryPath="../../../../Build"/>
+                       libraryPath="" cppLibType="libc++" binaryPath="../../../../bin"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_gui_extra" path="../../modules"/>
