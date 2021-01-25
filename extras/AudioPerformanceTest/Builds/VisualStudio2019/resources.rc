@@ -1,3 +1,5 @@
+#pragma code_page(65001)
+
 #ifdef JUCE_USER_DEFINED_RC_FILE
  #include JUCE_USER_DEFINED_RC_FILE
 #else
@@ -13,11 +15,17 @@ BEGIN
   BEGIN
     BLOCK "040904E4"
     BEGIN
+<<<<<<< HEAD:extras/UnitTestRunner/Builds/VisualStudio2019/resources.rc
       VALUE "CompanyName",  "ROLI Ltd.\0"
       VALUE "LegalCopyright",  "ROLI Ltd.\0"
+      VALUE "FileDescription",  "UnitTestRunner\0"
+=======
+      VALUE "CompanyName",  "Raw Material Software Limited\0"
+      VALUE "LegalCopyright",  "Raw Material Software Limited\0"
       VALUE "FileDescription",  "AudioPerformanceTest\0"
+>>>>>>> juce_master:extras/AudioPerformanceTest/Builds/VisualStudio2019/resources.rc
       VALUE "FileVersion",  "1.0.0\0"
-      VALUE "ProductName",  "AudioPerformanceTest\0"
+      VALUE "ProductName",  "UnitTestRunner\0"
       VALUE "ProductVersion",  "1.0.0\0"
     END
   END

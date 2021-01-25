@@ -2,7 +2,7 @@
   ==============================================================================
 
    This file is part of the JUCE library.
-   Copyright (c) 2017 - ROLI Ltd.
+   Copyright (c) 2020 - Raw Material Software Limited
 
    JUCE is an open source library subject to commercial or open-source
    licensing.
@@ -41,6 +41,7 @@ bool NamedPipe::openExisting (const String& pipeName)
 
 bool NamedPipe::isOpen() const
 {
+    ScopedReadLock sl (lock);
     return pimpl != nullptr;
 }
 
@@ -55,6 +56,7 @@ bool NamedPipe::createNewPipe (const String& pipeName, bool mustNotExist)
 
 String NamedPipe::getName() const
 {
+    ScopedReadLock sl (lock);
     return currentPipeName;
 }
 
@@ -75,7 +77,7 @@ public:
 
     void runTest() override
     {
-        const String pipeName ("TestPipe");
+        const auto pipeName = "TestPipe" + String ((intptr_t) Thread::getCurrentThreadId());
 
         beginTest ("Pre test cleanup");
         {
@@ -229,6 +231,11 @@ private:
               sendData (sData)
         {}
 
+        ~SenderThread() override
+        {
+            stopThread (100);
+        }
+
         void run() override
         {
             result = pipe.write (&sendData, sizeof (sendData), 2000);
@@ -245,6 +252,11 @@ private:
                         WaitableEvent& completed)
             : NamedPipeThread ("NamePipeSender", pName, shouldCreatePipe, completed)
         {}
+
+        ~ReceiverThread() override
+        {
+            stopThread (100);
+        }
 
         void run() override
         {
