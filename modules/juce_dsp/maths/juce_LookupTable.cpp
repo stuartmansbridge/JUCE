@@ -35,7 +35,7 @@ LookupTable<FloatType>::LookupTable()
 }
 
 template <typename FloatType>
-LookupTable<FloatType>::LookupTable (const std::function<FloatType(size_t)>& functionToApproximate,
+LookupTable<FloatType>::LookupTable (const std::function<FloatType (size_t)>& functionToApproximate,
                                      size_t numPointsToUse)
 {
     initialise (functionToApproximate, numPointsToUse);
@@ -43,7 +43,7 @@ LookupTable<FloatType>::LookupTable (const std::function<FloatType(size_t)>& fun
 
 //==============================================================================
 template <typename FloatType>
-void LookupTable<FloatType>::initialise (const std::function<FloatType(size_t)>& functionToApproximate,
+void LookupTable<FloatType>::initialise (const std::function<FloatType (size_t)>& functionToApproximate,
                                          size_t numPointsToUse)
 {
     data.resize (static_cast<int> (getRequiredBufferSize (numPointsToUse)));
@@ -71,7 +71,7 @@ void LookupTable<FloatType>::prepare() noexcept
 }
 
 template <typename FloatType>
-void LookupTableTransform<FloatType>::initialise (const std::function<FloatType(FloatType)>& functionToApproximate,
+void LookupTableTransform<FloatType>::initialise (const std::function<FloatType (FloatType)>& functionToApproximate,
                                                   FloatType minInputValueToUse,
                                                   FloatType maxInputValueToUse,
                                                   size_t numPoints)
@@ -97,7 +97,7 @@ void LookupTableTransform<FloatType>::initialise (const std::function<FloatType(
 
 //==============================================================================
 template <typename FloatType>
-double LookupTableTransform<FloatType>::calculateMaxRelativeError (const std::function<FloatType(FloatType)>& functionToApproximate,
+double LookupTableTransform<FloatType>::calculateMaxRelativeError (const std::function<FloatType (FloatType)>& functionToApproximate,
                                                                    FloatType minInputValue,
                                                                    FloatType maxInputValue,
                                                                    size_t numPoints,

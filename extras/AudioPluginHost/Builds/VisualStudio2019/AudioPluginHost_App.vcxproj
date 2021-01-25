@@ -63,13 +63,8 @@
     <ClCompile>
       <Optimization>Disabled</Optimization>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
-<<<<<<< HEAD:examples/DemoRunner/Builds/VisualStudio2019/DemoRunner_App.vcxproj
-      <AdditionalIncludeDirectories>..\..\JuceLibraryCode;..\..\..\..\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_WINDOWS;DEBUG;_DEBUG;JUCE_DEMO_RUNNER=1;JUCE_UNIT_TESTS=1;JUCER_VS2019_78A5026=1;JUCE_APP_VERSION=5.4.5;JUCE_APP_VERSION_HEX=0x50405;JucePlugin_Build_VST=0;JucePlugin_Build_VST3=0;JucePlugin_Build_AU=0;JucePlugin_Build_AUv3=0;JucePlugin_Build_RTAS=0;JucePlugin_Build_AAX=0;JucePlugin_Build_Standalone=0;JucePlugin_Build_Unity=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-=======
       <AdditionalIncludeDirectories>..\..\..\..\modules\juce_audio_processors\format_types\VST3_SDK;..\..\JuceLibraryCode;..\..\..\..\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_WINDOWS;DEBUG;_DEBUG;JUCE_DISPLAY_SPLASH_SCREEN=0;JUCE_USE_DARK_SPLASH_SCREEN=1;JUCE_PROJUCER_VERSION=0x60007;JUCE_MODULE_AVAILABLE_juce_audio_basics=1;JUCE_MODULE_AVAILABLE_juce_audio_devices=1;JUCE_MODULE_AVAILABLE_juce_audio_formats=1;JUCE_MODULE_AVAILABLE_juce_audio_processors=1;JUCE_MODULE_AVAILABLE_juce_audio_utils=1;JUCE_MODULE_AVAILABLE_juce_core=1;JUCE_MODULE_AVAILABLE_juce_cryptography=1;JUCE_MODULE_AVAILABLE_juce_data_structures=1;JUCE_MODULE_AVAILABLE_juce_dsp=1;JUCE_MODULE_AVAILABLE_juce_events=1;JUCE_MODULE_AVAILABLE_juce_graphics=1;JUCE_MODULE_AVAILABLE_juce_gui_basics=1;JUCE_MODULE_AVAILABLE_juce_gui_extra=1;JUCE_MODULE_AVAILABLE_juce_opengl=1;JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1;JUCE_WASAPI=1;JUCE_DIRECTSOUND=1;JUCE_ALSA=1;JUCE_USE_FLAC=0;JUCE_USE_OGGVORBIS=1;JUCE_PLUGINHOST_VST3=1;JUCE_PLUGINHOST_AU=1;JUCE_PLUGINHOST_LADSPA=1;JUCE_USE_CDREADER=0;JUCE_USE_CDBURNER=0;JUCE_WEB_BROWSER=0;JUCE_STANDALONE_APPLICATION=1;JUCER_VS2019_78A5026=1;JUCE_APP_VERSION=1.0.0;JUCE_APP_VERSION_HEX=0x10000;JucePlugin_Build_VST=0;JucePlugin_Build_VST3=0;JucePlugin_Build_AU=0;JucePlugin_Build_AUv3=0;JucePlugin_Build_RTAS=0;JucePlugin_Build_AAX=0;JucePlugin_Build_Standalone=0;JucePlugin_Build_Unity=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
->>>>>>> juce_master:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
@@ -110,15 +105,9 @@
     </Midl>
     <ClCompile>
       <Optimization>Full</Optimization>
-<<<<<<< HEAD:examples/DemoRunner/Builds/VisualStudio2019/DemoRunner_App.vcxproj
-      <AdditionalIncludeDirectories>..\..\JuceLibraryCode;..\..\..\..\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_WINDOWS;NDEBUG;JUCE_DEMO_RUNNER=1;JUCE_UNIT_TESTS=1;JUCER_VS2019_78A5026=1;JUCE_APP_VERSION=5.4.5;JUCE_APP_VERSION_HEX=0x50405;JucePlugin_Build_VST=0;JucePlugin_Build_VST3=0;JucePlugin_Build_AU=0;JucePlugin_Build_AUv3=0;JucePlugin_Build_RTAS=0;JucePlugin_Build_AAX=0;JucePlugin_Build_Standalone=0;JucePlugin_Build_Unity=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
-=======
       <AdditionalIncludeDirectories>..\..\..\..\modules\juce_audio_processors\format_types\VST3_SDK;..\..\JuceLibraryCode;..\..\..\..\modules;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;WIN32;_WINDOWS;NDEBUG;JUCE_DISPLAY_SPLASH_SCREEN=0;JUCE_USE_DARK_SPLASH_SCREEN=1;JUCE_PROJUCER_VERSION=0x60007;JUCE_MODULE_AVAILABLE_juce_audio_basics=1;JUCE_MODULE_AVAILABLE_juce_audio_devices=1;JUCE_MODULE_AVAILABLE_juce_audio_formats=1;JUCE_MODULE_AVAILABLE_juce_audio_processors=1;JUCE_MODULE_AVAILABLE_juce_audio_utils=1;JUCE_MODULE_AVAILABLE_juce_core=1;JUCE_MODULE_AVAILABLE_juce_cryptography=1;JUCE_MODULE_AVAILABLE_juce_data_structures=1;JUCE_MODULE_AVAILABLE_juce_dsp=1;JUCE_MODULE_AVAILABLE_juce_events=1;JUCE_MODULE_AVAILABLE_juce_graphics=1;JUCE_MODULE_AVAILABLE_juce_gui_basics=1;JUCE_MODULE_AVAILABLE_juce_gui_extra=1;JUCE_MODULE_AVAILABLE_juce_opengl=1;JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED=1;JUCE_WASAPI=1;JUCE_DIRECTSOUND=1;JUCE_ALSA=1;JUCE_USE_FLAC=0;JUCE_USE_OGGVORBIS=1;JUCE_PLUGINHOST_VST3=1;JUCE_PLUGINHOST_AU=1;JUCE_PLUGINHOST_LADSPA=1;JUCE_USE_CDREADER=0;JUCE_USE_CDBURNER=0;JUCE_WEB_BROWSER=0;JUCE_STANDALONE_APPLICATION=1;JUCER_VS2019_78A5026=1;JUCE_APP_VERSION=1.0.0;JUCE_APP_VERSION_HEX=0x10000;JucePlugin_Build_VST=0;JucePlugin_Build_VST3=0;JucePlugin_Build_AU=0;JucePlugin_Build_AUv3=0;JucePlugin_Build_RTAS=0;JucePlugin_Build_AAX=0;JucePlugin_Build_Standalone=0;JucePlugin_Build_Unity=0;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
->>>>>>> juce_master:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <AssemblerListingLocation>$(IntDir)\</AssemblerListingLocation>
@@ -269,20 +258,10 @@
     <ClCompile Include="..\..\..\..\modules\juce_audio_devices\audio_io\juce_AudioIODeviceType.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-<<<<<<< HEAD:examples/DemoRunner/Builds/VisualStudio2019/DemoRunner_App.vcxproj
-    <ClCompile Include="..\..\..\..\modules\juce_audio_devices\midi_io\juce_MidiDevices.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_audio_devices\midi_io\juce_MidiMessageCollector.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_audio_devices\native\juce_android_Audio.cpp">
-=======
     <ClCompile Include="..\..\..\..\modules\juce_audio_devices\midi_io\ump\juce_UMPMidi1ToMidi2DefaultTranslator.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\..\..\modules\juce_audio_devices\midi_io\ump\juce_UMPSysEx7.cpp">
->>>>>>> juce_master:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\..\..\modules\juce_audio_devices\midi_io\ump\juce_UMPTests.cpp">
@@ -618,36 +597,13 @@
     <ClCompile Include="..\..\..\..\modules\juce_audio_formats\codecs\oggvorbis\libvorbis-1.3.7\lib\window.c">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-<<<<<<< HEAD:examples/DemoRunner/Builds/VisualStudio2019/DemoRunner_App.vcxproj
-    <ClCompile Include="..\..\..\..\modules\juce_audio_processors\utilities\juce_AudioParameterBool.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_audio_processors\utilities\juce_AudioParameterChoice.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_audio_processors\utilities\juce_AudioParameterFloat.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_audio_processors\utilities\juce_AudioParameterInt.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_audio_processors\utilities\juce_AudioProcessorParameterWithID.cpp">
-=======
     <ClCompile Include="..\..\..\..\modules\juce_audio_formats\codecs\oggvorbis\bitwise.c">
->>>>>>> juce_master:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\..\..\modules\juce_audio_formats\codecs\oggvorbis\framing.c">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-<<<<<<< HEAD:examples/DemoRunner/Builds/VisualStudio2019/DemoRunner_App.vcxproj
-    <ClCompile Include="..\..\..\..\modules\juce_audio_processors\utilities\juce_RangedAudioParameter.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_audio_processors\juce_audio_processors.cpp">
-=======
     <ClCompile Include="..\..\..\..\modules\juce_audio_formats\codecs\juce_AiffAudioFormat.cpp">
->>>>>>> juce_master:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\..\..\modules\juce_audio_formats\codecs\juce_CoreAudioFormat.cpp">
@@ -710,14 +666,7 @@
     <ClCompile Include="..\..\..\..\modules\juce_audio_processors\format_types\VST3_SDK\base\source\fbuffer.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-<<<<<<< HEAD:examples/DemoRunner/Builds/VisualStudio2019/DemoRunner_App.vcxproj
-    <ClCompile Include="..\..\..\..\modules\juce_blocks_basics\topology\internal\juce_BlockSerialReader.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_blocks_basics\topology\internal\juce_ConnectedDeviceGroup.cpp">
-=======
     <ClCompile Include="..\..\..\..\modules\juce_audio_processors\format_types\VST3_SDK\base\source\fdebug.cpp">
->>>>>>> juce_master:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="..\..\..\..\modules\juce_audio_processors\format_types\VST3_SDK\base\source\fobject.cpp">
@@ -1257,12 +1206,9 @@
     <ClCompile Include="..\..\..\..\modules\juce_dsp\containers\juce_AudioBlock_test.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-<<<<<<< HEAD:examples/DemoRunner/Builds/VisualStudio2019/DemoRunner_App.vcxproj
-=======
     <ClCompile Include="..\..\..\..\modules\juce_dsp\containers\juce_FixedSizeFunction_test.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
->>>>>>> juce_master:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj
     <ClCompile Include="..\..\..\..\modules\juce_dsp\containers\juce_SIMDRegister_test.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
@@ -2315,10 +2261,6 @@
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\audio_io\juce_AudioIODevice.h"/>
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\audio_io\juce_AudioIODeviceType.h"/>
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\audio_io\juce_SystemAudioVolume.h"/>
-<<<<<<< HEAD:examples/DemoRunner/Builds/VisualStudio2019/DemoRunner_App.vcxproj
-    <ClInclude Include="..\..\..\..\modules\juce_audio_devices\midi_io\juce_MidiDevices.h"/>
-    <ClInclude Include="..\..\..\..\modules\juce_audio_devices\midi_io\juce_MidiMessageCollector.h"/>
-=======
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\midi_io\ump\juce_UMPacket.h"/>
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\midi_io\ump\juce_UMPackets.h"/>
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\midi_io\ump\juce_UMPBytestreamInputHandler.h"/>
@@ -2399,7 +2341,6 @@
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\native\oboe\src\opensles\OpenSLESUtilities.h"/>
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\native\oboe\src\opensles\OutputMixerOpenSLES.h"/>
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\native\juce_android_HighPerformanceAudioHelpers.h"/>
->>>>>>> juce_master:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\native\juce_ios_Audio.h"/>
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\native\juce_MidiDataConcatenator.h"/>
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\sources\juce_AudioSourcePlayer.h"/>

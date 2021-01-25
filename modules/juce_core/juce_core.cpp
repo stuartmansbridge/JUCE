@@ -108,10 +108,6 @@
  #include <android/log.h>
 #endif
 
-#if JUCE_BELA
- #include <alchemy/timer.h>
-#endif
-
 #undef check
 
 //==============================================================================

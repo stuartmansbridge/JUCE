@@ -640,9 +640,6 @@
     <ClCompile Include="..\..\..\..\modules\juce_core\misc\juce_RuntimePermissions.cpp">
       <Filter>JUCE Modules\juce_core\misc</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_core\misc\juce_StdFunctionCompat.cpp">
-      <Filter>JUCE Modules\juce_core\misc</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\..\modules\juce_core\misc\juce_Uuid.cpp">
       <Filter>JUCE Modules\juce_core\misc</Filter>
     </ClCompile>
@@ -1595,12 +1592,6 @@
       <Filter>JUCE Modules\juce_gui_basics\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\modules\juce_gui_basics\native\juce_linux_Windowing.cpp">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_gui_basics\native\juce_linux_X11.cpp">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\..\..\modules\juce_gui_basics\native\juce_linux_X11_Windowing.cpp">
       <Filter>JUCE Modules\juce_gui_basics\native</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\..\modules\juce_gui_basics\native\juce_mac_FileChooser.mm">
@@ -2619,9 +2610,6 @@
     <ClInclude Include="..\..\..\..\modules\juce_core\misc\juce_RuntimePermissions.h">
       <Filter>JUCE Modules\juce_core\misc</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\modules\juce_core\misc\juce_StdFunctionCompat.h">
-      <Filter>JUCE Modules\juce_core\misc</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\..\modules\juce_core\misc\juce_Uuid.h">
       <Filter>JUCE Modules\juce_core\misc</Filter>
     </ClInclude>
@@ -3473,9 +3461,6 @@
     </ClInclude>
     <ClInclude Include="..\..\..\..\modules\juce_gui_basics\native\x11\juce_linux_XWindowSystem.h">
       <Filter>JUCE Modules\juce_gui_basics\native\x11</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\..\modules\juce_gui_basics\native\juce_linux_X11.h">
-      <Filter>JUCE Modules\juce_gui_basics\native</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\modules\juce_gui_basics\native\juce_MultiTouchMapper.h">
       <Filter>JUCE Modules\juce_gui_basics\native</Filter>

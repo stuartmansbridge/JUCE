@@ -210,11 +210,6 @@ private:
                 pipe.openExisting (pipeName);
         }
 
-        ~NamedPipeThread()
-        {
-            stopThread (100);
-        }
-
         NamedPipe pipe;
         const String& pipeName;
         WaitableEvent& workCompleted;

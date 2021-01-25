@@ -184,7 +184,7 @@ struct CameraDevice::Pimpl  : public ChangeBroadcaster
 
     bool openedOk() const noexcept       { return openedSuccessfully; }
 
-    void takeStillPicture (std::function<void(const Image&)> pictureTakenCallbackToUse)
+    void takeStillPicture (std::function<void (const Image&)> pictureTakenCallbackToUse)
     {
         {
             const ScopedLock sl (pictureTakenCallbackLock);
@@ -553,7 +553,7 @@ struct CameraDevice::Pimpl  : public ChangeBroadcaster
     ListenerList<Listener> listeners;
 
     CriticalSection pictureTakenCallbackLock;
-    std::function<void(const Image&)> pictureTakenCallback;
+    std::function<void (const Image&)> pictureTakenCallback;
 
     bool isRecording = false, openedSuccessfully = false;
     int width = 0, height = 0;

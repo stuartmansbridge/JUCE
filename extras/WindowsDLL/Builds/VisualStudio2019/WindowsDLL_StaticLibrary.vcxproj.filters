@@ -2,21 +2,6 @@
 
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-<<<<<<< HEAD:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj.filters
-    <Filter Include="AudioPluginHost\Source\Plugins">
-      <UniqueIdentifier>{346E906D-8A2B-A93A-4C90-BCD3C60D2FD0}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="AudioPluginHost\Source\UI">
-      <UniqueIdentifier>{8C61EB30-11E6-7029-4CC8-56C52EB1F1C3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="AudioPluginHost\Source">
-      <UniqueIdentifier>{57E59C1B-8971-243F-9A1A-8EABFD456232}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="AudioPluginHost">
-      <UniqueIdentifier>{297DEAC9-184C-CA1D-D75C-DAA34116691C}</UniqueIdentifier>
-    </Filter>
-=======
->>>>>>> juce_master:extras/WindowsDLL/Builds/VisualStudio2019/WindowsDLL_StaticLibrary.vcxproj.filters
     <Filter Include="JUCE Modules\juce_audio_basics\audio_play_head">
       <UniqueIdentifier>{EB58F05A-A968-CEBE-40C4-107CDD8F240F}</UniqueIdentifier>
     </Filter>
@@ -469,27 +454,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj.filters
-    <ClCompile Include="..\..\Source\Plugins\InternalPlugins.cpp">
-      <Filter>AudioPluginHost\Source\Plugins</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Plugins\IOConfigurationWindow.cpp">
-      <Filter>AudioPluginHost\Source\Plugins</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Plugins\PluginGraph.cpp">
-      <Filter>AudioPluginHost\Source\Plugins</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\UI\GraphEditorPanel.cpp">
-      <Filter>AudioPluginHost\Source\UI</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\UI\MainHostWindow.cpp">
-      <Filter>AudioPluginHost\Source\UI</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\HostStartup.cpp">
-      <Filter>AudioPluginHost\Source</Filter>
-    </ClCompile>
-=======
->>>>>>> juce_master:extras/WindowsDLL/Builds/VisualStudio2019/WindowsDLL_StaticLibrary.vcxproj.filters
     <ClCompile Include="..\..\..\..\modules\juce_audio_basics\buffers\juce_AudioChannelSet.cpp">
       <Filter>JUCE Modules\juce_audio_basics\buffers</Filter>
     </ClCompile>
@@ -604,8 +568,6 @@
     <ClCompile Include="..\..\..\..\modules\juce_audio_devices\audio_io\juce_AudioIODeviceType.cpp">
       <Filter>JUCE Modules\juce_audio_devices\audio_io</Filter>
     </ClCompile>
-<<<<<<< HEAD:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj.filters
-=======
     <ClCompile Include="..\..\..\..\modules\juce_audio_devices\midi_io\ump\juce_UMPMidi1ToMidi2DefaultTranslator.cpp">
       <Filter>JUCE Modules\juce_audio_devices\midi_io\ump</Filter>
     </ClCompile>
@@ -621,7 +583,6 @@
     <ClCompile Include="..\..\..\..\modules\juce_audio_devices\midi_io\ump\juce_UMPView.cpp">
       <Filter>JUCE Modules\juce_audio_devices\midi_io\ump</Filter>
     </ClCompile>
->>>>>>> juce_master:extras/WindowsDLL/Builds/VisualStudio2019/WindowsDLL_StaticLibrary.vcxproj.filters
     <ClCompile Include="..\..\..\..\modules\juce_audio_devices\midi_io\juce_MidiDevices.cpp">
       <Filter>JUCE Modules\juce_audio_devices\midi_io</Filter>
     </ClCompile>
@@ -1150,12 +1111,9 @@
     <ClCompile Include="..\..\..\..\modules\juce_audio_processors\utilities\juce_AudioProcessorValueTreeState.cpp">
       <Filter>JUCE Modules\juce_audio_processors\utilities</Filter>
     </ClCompile>
-<<<<<<< HEAD:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj.filters
-=======
     <ClCompile Include="..\..\..\..\modules\juce_audio_processors\utilities\juce_ParameterAttachments.cpp">
       <Filter>JUCE Modules\juce_audio_processors\utilities</Filter>
     </ClCompile>
->>>>>>> juce_master:extras/WindowsDLL/Builds/VisualStudio2019/WindowsDLL_StaticLibrary.vcxproj.filters
     <ClCompile Include="..\..\..\..\modules\juce_audio_processors\utilities\juce_RangedAudioParameter.cpp">
       <Filter>JUCE Modules\juce_audio_processors\utilities</Filter>
     </ClCompile>
@@ -2610,27 +2568,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-<<<<<<< HEAD:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj.filters
-    <ClInclude Include="..\..\Source\Plugins\InternalPlugins.h">
-      <Filter>AudioPluginHost\Source\Plugins</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Plugins\IOConfigurationWindow.h">
-      <Filter>AudioPluginHost\Source\Plugins</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Plugins\PluginGraph.h">
-      <Filter>AudioPluginHost\Source\Plugins</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\UI\GraphEditorPanel.h">
-      <Filter>AudioPluginHost\Source\UI</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\UI\MainHostWindow.h">
-      <Filter>AudioPluginHost\Source\UI</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\UI\PluginWindow.h">
-      <Filter>AudioPluginHost\Source\UI</Filter>
-    </ClInclude>
-=======
->>>>>>> juce_master:extras/WindowsDLL/Builds/VisualStudio2019/WindowsDLL_StaticLibrary.vcxproj.filters
     <ClInclude Include="..\..\..\..\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h">
       <Filter>JUCE Modules\juce_audio_basics\audio_play_head</Filter>
     </ClInclude>
@@ -2766,8 +2703,6 @@
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\audio_io\juce_SystemAudioVolume.h">
       <Filter>JUCE Modules\juce_audio_devices\audio_io</Filter>
     </ClInclude>
-<<<<<<< HEAD:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj.filters
-=======
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\midi_io\ump\juce_UMPacket.h">
       <Filter>JUCE Modules\juce_audio_devices\midi_io\ump</Filter>
     </ClInclude>
@@ -2816,15 +2751,12 @@
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\midi_io\ump\juce_UMPView.h">
       <Filter>JUCE Modules\juce_audio_devices\midi_io\ump</Filter>
     </ClInclude>
->>>>>>> juce_master:extras/WindowsDLL/Builds/VisualStudio2019/WindowsDLL_StaticLibrary.vcxproj.filters
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\midi_io\juce_MidiDevices.h">
       <Filter>JUCE Modules\juce_audio_devices\midi_io</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\midi_io\juce_MidiMessageCollector.h">
       <Filter>JUCE Modules\juce_audio_devices\midi_io</Filter>
     </ClInclude>
-<<<<<<< HEAD:extras/AudioPluginHost/Builds/VisualStudio2019/AudioPluginHost_App.vcxproj.filters
-=======
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\native\oboe\include\oboe\AudioStream.h">
       <Filter>JUCE Modules\juce_audio_devices\native\oboe\include\oboe</Filter>
     </ClInclude>
@@ -3011,7 +2943,6 @@
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\native\juce_android_HighPerformanceAudioHelpers.h">
       <Filter>JUCE Modules\juce_audio_devices\native</Filter>
     </ClInclude>
->>>>>>> juce_master:extras/WindowsDLL/Builds/VisualStudio2019/WindowsDLL_StaticLibrary.vcxproj.filters
     <ClInclude Include="..\..\..\..\modules\juce_audio_devices\native\juce_ios_Audio.h">
       <Filter>JUCE Modules\juce_audio_devices\native</Filter>
     </ClInclude>

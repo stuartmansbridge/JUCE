@@ -52,7 +52,7 @@ public:
         succeeded. Also, the optional error message is always empty on Android.
     */
     void shareFiles (const Array<URL>& files,
-                     std::function<void(bool /*success*/, const String& /*error*/)> callback);
+                     std::function<void (bool /*success*/, const String& /*error*/)> callback);
 
     /** Shares the given text.
 
@@ -62,7 +62,7 @@ public:
         succeeded. Also, the optional error message is always empty on Android.
     */
     void shareText (const String& text,
-                    std::function<void(bool /*success*/, const String& /*error*/)> callback);
+                    std::function<void (bool /*success*/, const String& /*error*/)> callback);
 
     /** A convenience function to share an image. This is useful when you have images
         loaded in memory. The images will be written to temporary files first, so if
@@ -86,7 +86,7 @@ public:
         succeeded. Also, the optional error message is always empty on Android.
     */
     void shareImages (const Array<Image>& images,
-                      std::function<void(bool /*success*/, const String& /*error*/)> callback,
+                      std::function<void (bool /*success*/, const String& /*error*/)> callback,
                       ImageFileFormat* imageFileFormatToUse = nullptr);
 
     /** A convenience function to share arbitrary data. The data will be written
@@ -99,7 +99,7 @@ public:
         succeeded. Also, the optional error message is always empty on Android.
     */
     void shareData (const MemoryBlock& mb,
-                    std::function<void(bool /*success*/, const String& /*error*/)> callback);
+                    std::function<void (bool /*success*/, const String& /*error*/)> callback);
 
 private:
     ContentSharer();
@@ -107,7 +107,7 @@ private:
 
     Array<File> temporaryFiles;
 
-    std::function<void(bool, String)> callback;
+    std::function<void (bool, String)> callback;
 
   #if JUCE_CONTENT_SHARING
     struct Pimpl
@@ -120,7 +120,7 @@ private:
     std::unique_ptr<Pimpl> pimpl;
     Pimpl* createPimpl();
 
-    void startNewShare (std::function<void(bool, const String&)>);
+    void startNewShare (std::function<void (bool, const String&)>);
 
     class ContentSharerNativeImpl;
     friend class ContentSharerNativeImpl;

@@ -484,7 +484,7 @@ private:
 struct CameraDevice::Pimpl
     : private ActivityLifecycleCallbacks
 {
-    using InternalOpenCameraResultCallback = std::function<void(const String& /*cameraId*/, const String& /*error*/)>;
+    using InternalOpenCameraResultCallback = std::function<void (const String& /*cameraId*/, const String& /*error*/)>;
 
     Pimpl (CameraDevice& ownerToUse, const String& cameraIdToUse, int /*index*/,
            int minWidthToUse, int minHeightToUse, int maxWidthToUse, int maxHeightToUse,
@@ -560,7 +560,7 @@ struct CameraDevice::Pimpl
 
     bool openedOk() const noexcept { return scopedCameraDevice->openedOk(); }
 
-    void takeStillPicture (std::function<void(const Image&)> pictureTakenCallbackToUse)
+    void takeStillPicture (std::function<void (const Image&)> pictureTakenCallbackToUse)
     {
         if (pictureTakenCallbackToUse == nullptr || currentCaptureSessionMode == nullptr)
         {
@@ -2933,7 +2933,7 @@ private:
     CriticalSection listenerLock;
     ListenerList<Listener> listeners;
 
-    std::function<void(const Image&)> pictureTakenCallback;
+    std::function<void (const Image&)> pictureTakenCallback;
 
     Time firstRecordedFrameTimeMs;
     bool notifiedOfCameraOpening = false;

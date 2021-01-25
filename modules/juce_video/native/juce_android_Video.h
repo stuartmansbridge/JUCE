@@ -400,7 +400,7 @@ struct VideoComponent::Pimpl
         }
     }
 
-    void loadAsync (const URL& url, std::function<void(const URL&, Result)> callback)
+    void loadAsync (const URL& url, std::function<void (const URL&, Result)> callback)
     {
         close();
         wasOpen = false;
@@ -1749,7 +1749,7 @@ private:
    #endif
     GlobalRef surfaceHolderCallback;
 
-    std::function<void(const URL&, Result)> loadFinishedCallback;
+    std::function<void (const URL&, Result)> loadFinishedCallback;
 
     bool wasOpen = false;
 

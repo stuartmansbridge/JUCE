@@ -30,7 +30,7 @@
 
 struct CameraDevice::Pimpl
 {
-    using InternalOpenCameraResultCallback = std::function<void(const String& /*cameraId*/, const String& /*error*/)>;
+    using InternalOpenCameraResultCallback = std::function<void (const String& /*cameraId*/, const String& /*error*/)>;
 
     Pimpl (CameraDevice& ownerToUse, const String& cameraIdToUse, int /*index*/,
            int /*minWidth*/, int /*minHeight*/, int /*maxWidth*/, int /*maxHeight*/,
@@ -79,7 +79,7 @@ struct CameraDevice::Pimpl
 
     bool openedOk() const noexcept { return captureSession.openedOk(); }
 
-    void takeStillPicture (std::function<void(const Image&)> pictureTakenCallbackToUse)
+    void takeStillPicture (std::function<void (const Image&)> pictureTakenCallbackToUse)
     {
         if (pictureTakenCallbackToUse == nullptr)
         {
@@ -1223,7 +1223,7 @@ private:
     CriticalSection listenerLock;
     ListenerList<Listener> listeners;
 
-    std::function<void(const Image&)> pictureTakenCallback;
+    std::function<void (const Image&)> pictureTakenCallback;
 
     CaptureSession captureSession;
 
